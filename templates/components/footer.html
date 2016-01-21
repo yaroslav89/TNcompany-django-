@@ -1,0 +1,23 @@
+{% load static %}
+
+<footer class="contacts">
+		<div class="contacts-adres">
+			<p>г. Черновцы, ул. Главная, 59 (4-й этаж)</p>
+		</div>
+		<div class="contacts-logo">
+			<img class="footer-logo" src="{% static 'css/img/logo.png' %}">
+		</div>
+		<div class="contacts-telephone">
+			<p>тел. +380 50 623 3604</p>
+		</div>
+		<div class="social">
+			<a href="https://www.instagram.com/nadia_toporivskaia/" target="_blank"><img class='social-image' src="{% static 'css/img/insta.png' %}"></a>
+			<a href="https://www.facebook.com/nadia.toporivskaia" target="_blank"><img class='social-image' src="{% static 'css/img/fb.png' %}"></a>
+			<a href="https://vk.com/id22310554" target="_blank"><img class='social-image' src="{% static 'css/img/vk.png' %}"></a>
+		</div>
+		<div class="footer-darker">©{{year}} Event Company TN. All rights reserved</div>
+</footer>
+
+<script type="text/javascript" src="{% static 'lib/jquery-2.1.4.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'lib/jquery-ui.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/app.js' %}"></script>
